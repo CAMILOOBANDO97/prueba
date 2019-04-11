@@ -1,0 +1,84 @@
+En el primer código:
+
+cin << cout;
+
+El comando cin recibe parámetros por pantalla y se escribe cin >> (lo que el usuario coloca)
+
+
+
+En el segundo código:
+
+if(x=0) cout << x << " =0\n"
+else cout << x << " != 0 \n"
+
+Debe quedar if(x=0){cout << x << " =0\n"}
+            else{ cout << x << " != 0 \n"}
+            
+            
+            
+En el tercer código:
+
+#include <iostream>
+int main(void)
+{
+  const double PI;
+  int n;
+  PI=3.14159265358979;
+  n=22;
+}
+
+Ya que PI es tipo double, este no debería tener que ser tipo constant.
+
+
+
+En el cuarto código:
+
+int count;
+while(count<100)
+cout<<count;}
+
+Debe quedar:
+
+int count;
+while(count<100){
+cout<<count<<endl;}
+
+
+
+En el quinto código:
+
+int a,b;
+int sum=a+b;
+cout<<"Enter two numbers to add";
+cin>>b;
+cout<<"The sum is "<<sum;
+
+Debe quedar:
+
+int a,b;
+int sum=a+b;
+cout<<"Enter two numbers to add";
+cin>>b>>a;
+cout<<"The sum is "<<sum<<endl;
+
+
+
+En el sexto código:
+
+int array[10];
+for(int x=1; x<=10;x++)
+cout<<array[x]
+
+debe quedar:
+
+int array[10];
+for(int x=01; x<=9;x++):
+    cout<<array[x]<< endl: //va a boatar un arreglo vacío, un error porque no hay nada en nel arreglo, luego es vacío.
+    
+    
+    
+En el sexto código:
+
+double half = 1/2;
+
+No está mal pero sería más coerrecto poner float
