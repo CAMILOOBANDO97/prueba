@@ -1,3 +1,4 @@
+//Habiendo hecho cada una de las operaciones en c++, los resultados de las operaciones son:
 8*9+2 = 74
 6*3/4 = 4
 3/4*6 = 0
